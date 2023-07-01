@@ -47,6 +47,7 @@ h2 {
 h3 {
   font-size: var(--font__size--500);
   font-weight: var(--font__weight--extra-bold);
+  margin: 0;
 }
 
 section {
@@ -102,6 +103,7 @@ section {
   padding: 0.3rem 1.5rem;
   border-radius: 0.5rem;
   border: none;
+  min-width: 7.25rem;
 }
 
 .button--outlined {
@@ -169,9 +171,12 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  line-height: 0.5rem;
   padding: 2rem 8rem;
   border-radius: 0.5rem;
+}
+
+.cta__text {
+  margin: 0;
 }
 
 footer {
