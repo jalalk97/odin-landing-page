@@ -172,4 +172,11 @@ section {
   padding: 2rem 8rem;
   border-radius: 0.5rem;
 }
+
+footer {
+  color: var(--color__neutral--light);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
