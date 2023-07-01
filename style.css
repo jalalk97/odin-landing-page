@@ -139,4 +139,20 @@ section {
   border: 0.25rem solid var(--color__accent);
 }
 
+.testimonial {
+  background-color: var(--color__neutral--gray);
+  padding: 5rem 29%;
+}
+
+.testimonial__quote {
+  font-size: var(--font__size--600);
+  font-weight: var(--font__weight--light);
+}
+
+.testimonial__signature {
+  font-size: var(--font__size--500);
+  font-weight: var(--font__weight--bold);
+  text-align: right;
+  padding-right: 2rem;
+}
 }
