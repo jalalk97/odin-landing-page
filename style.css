@@ -107,5 +107,36 @@ section {
   border: 2px solid var(--color__neutral--light);
 }
 
+.info {
+  background-color: var(--color__neutral--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.info__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.info__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 15rem;
+  text-align: center;
+  width: 10rem;
+}
+
+.info__thumbnail {
+  flex: 0 1 auto;
+  width: 10rem;
+  height: auto;
+  border-radius: 0.5rem;
+  border: 0.25rem solid var(--color__accent);
+}
 
 }
