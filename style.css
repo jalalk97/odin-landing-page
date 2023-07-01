@@ -53,6 +53,23 @@ section {
   padding-right: var(--spacing__padding--horizontal);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--spacing__padding--horizontal);
+}
+
+.header a {
+  color: var(--color__neutral--gray);
+  text-decoration: none;
+}
+
+.header .logo {
+  font-size: var(--font__size--500);
+  font-weight: var(--font__weight--bold);
+  color: var(--color__neutral--light);
+}
 
 
 
