@@ -1,0 +1,17 @@
+:root {
+  --color__primary: #1f2937;
+  --color__accent: #3882f6;
+  --color__neutral--light: #f9faf8;
+  --color__neutral--gray: #e5e7eb;
+
+  --font__size--400: 1.125rem;
+  --font__size--500: 1.5rem;
+  --font__size--600: 2.25rem;
+  --font__size--700: 3rem;
+
+  --font__weight--light: 300;
+  --font__weight--bold: 700;
+  --font__weight--extra-bold: 800;
+
+  --spacing__padding--horizontal: 15%;
+}
