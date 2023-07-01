@@ -71,6 +71,41 @@ section {
   color: var(--color__neutral--light);
 }
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.hero__title {
+  font-size: var(--font__size--700);
+  font-weight: var(--font__weight--extra-bold);
+  color: var(--color__neutral--light);
+}
+
+.hero__content {
+  max-width: 28rem;
+}
+
+.hero__text {
+  color: var(--color__neutral--gray);
+}
+
+.button {
+  font-size: var(--font__size--400);
+  font-weight: var(--font__weight--bold);
+  background-color: var(--color__accent);
+  color: var(--color__neutral--light);
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.button--outlined {
+  border: 2px solid var(--color__neutral--light);
+}
 
 
 }
