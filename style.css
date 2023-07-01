@@ -13,7 +13,8 @@
   --font__weight--bold: 700;
   --font__weight--extra-bold: 800;
 
-  --spacing__padding--horizontal: 15%;
+  --spacing__padding--horizontal: 20%;
+}
 
 body {
   font-family: Roboto;
