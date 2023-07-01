@@ -14,4 +14,46 @@
   --font__weight--extra-bold: 800;
 
   --spacing__padding--horizontal: 15%;
+
+body {
+  font-family: Roboto;
+  font-size: var(--font__size--400);
+  color: var(--color__primary);
+  background-color: var(--color__primary);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: var(--font__size--600);
+  font-weight: var(--font__weight--extra-bold);
+}
+
+h3 {
+  font-size: var(--font__size--500);
+  font-weight: var(--font__weight--extra-bold);
+}
+
+section {
+  padding-left: var(--spacing__padding--horizontal);
+  padding-right: var(--spacing__padding--horizontal);
+}
+
+
+
+
 }
